@@ -1,0 +1,137 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-27556
+Cmd: getPlatforms
+Cmd: preprocess
+  error: 2 plat 12 at (38): Can't find include file AngryInclude.cginc
+  insize=1072 outsize=260 ok=0
+Cmd: preprocess
+  insize=945 outsize=501 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=749 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=749 outsize=713 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (110): Can't find include file AngryInclude.cginc
+  insize=2368 outsize=692 ok=0
+Cmd: preprocess
+  insize=1544 outsize=374 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1413 outsize=1103 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1413 outsize=1136 kw= ok=1
+Cmd: preprocess
+  insize=1433 outsize=685 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1053 outsize=1542 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1053 outsize=876 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (61): Can't find include file AngryInclude.cginc
+  error: 2 plat 12 at (169): Can't find include file AngryInclude.cginc
+  insize=4462 outsize=1030 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (107): Can't find include file AngryInclude.cginc
+  insize=3165 outsize=779 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (74): Can't find include file AngryInclude.cginc
+  error: 2 plat 12 at (184): Can't find include file AngryInclude.cginc
+  insize=3642 outsize=1074 ok=0
+Cmd: preprocess
+  insize=791 outsize=381 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=715 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=715 outsize=600 kw= ok=1
+Cmd: preprocess
+  insize=1489 outsize=689 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1106 outsize=1591 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1106 outsize=876 kw= ok=1
+Cmd: preprocess
+  insize=1621 outsize=478 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1445 outsize=2054 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1445 outsize=1412 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (61): Can't find include file AngryInclude.cginc
+  error: 2 plat 12 at (165): Can't find include file AngryInclude.cginc
+  insize=4282 outsize=954 ok=0
+Cmd: preprocess
+  insize=969 outsize=479 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=795 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=795 outsize=713 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (52): Can't find include file AngryInclude.cginc
+  error: 2 plat 12 at (148): Can't find include file AngryInclude.cginc
+  insize=3646 outsize=731 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (75): Can't find include file AngryInclude.cginc
+  error: 2 plat 12 at (170): Can't find include file AngryInclude.cginc
+  insize=3077 outsize=782 ok=0
+Cmd: preprocess
+  insize=844 outsize=358 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=788 outsize=1136 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=788 outsize=770 kw= ok=1
+Cmd: preprocess
+  insize=4844 outsize=843 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3981 outsize=990 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3981 outsize=803 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3978 outsize=1737 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3978 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3997 outsize=1623 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3997 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3999 outsize=1623 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3999 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3994 outsize=990 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3994 outsize=1209 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3986 outsize=1737 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3986 outsize=1615 kw= ok=1
+Cmd: preprocess
+  insize=3138 outsize=1381 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1042 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1042 outsize=892 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1031 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1031 outsize=770 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=973 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=973 outsize=673 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=998 outsize=1307 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=998 outsize=673 kw= ok=1
+Cmd: preprocess
+  insize=1042 outsize=433 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=914 outsize=1396 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=914 outsize=803 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (136): Can't find include file AngryInclude.cginc
+  insize=2487 outsize=742 ok=0
+Unhandled exception: Readfile from pipe failed. GLE=管道已结束。
+
+
+Quitting shader compiler process
