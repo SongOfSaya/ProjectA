@@ -5,6 +5,10 @@ public class CameraTouch : MonoBehaviour
 {
     [SerializeField]
     private CameraPathAnimator CPA;
+    [SerializeField]
+    private GameObject playBall;
+    [SerializeField]
+    private GameObject ballArm;
     public GameObject Look_Obj;
     private Vector3 deltaPosition;
     void OnEnable ()
@@ -37,7 +41,16 @@ public class CameraTouch : MonoBehaviour
     }
     void LateUpdate ()
     {
-        transform.LookAt(Look_Obj.transform);
+        if (GameInfo.GetInstance().State == GameState.Brower)
+        {
+            transform.LookAt(Look_Obj.transform);
+        } else if(GameInfo.GetInstance().State == GameState.Location)
+        {
+            transform.LookAt(playBall.transform);
+        }
+
+        
+
         //Debug.Log("AAAA");
     }
 
@@ -66,18 +79,35 @@ public class CameraTouch : MonoBehaviour
     }
     private void On_Swipe (Gesture gesture)
     {
-        
         string str = gesture.swipe.ToString();
-        Debug.Log("Swipe.ToString = " + str);
-        Debug.Log("Last swipe : " + gesture.swipe.ToString() + " /  vector : " + gesture.swipeVector.normalized + " / angle : " + gesture.GetSwipeOrDragAngle().ToString("f2") + " / " + gesture.deltaPosition.x.ToString("f5"));
-        if (str == "Right")
+        if (GameInfo.GetInstance().State == GameState.Brower)
         {
-            float f = CPA.percentage;
-            CPA.Seek(f + 0.01f);
-        }else if (str == "Left")
-        {
-            float f = CPA.percentage;
-            CPA.Seek(f - 0.01f);
+            if (str == "Right")
+            {
+                float f = CPA.percentage;
+                CPA.Seek(f + 0.01f);
+            }
+            else if (str == "Left")
+            {
+                float f = CPA.percentage;
+                CPA.Seek(f - 0.01f);
+            }
+            return;
         }
+        else if (GameInfo.GetInstance().State == GameState.Location)
+        {
+            
+        }
+        
+        //Debug.Log("Swipe.ToString = " + str);
+        //Debug.Log("Last swipe : " + gesture.swipe.ToString() + " /  vector : " + gesture.swipeVector.normalized + " / angle : " + gesture.GetSwipeOrDragAngle().ToString("f2") + " / " + gesture.deltaPosition.x.ToString("f5"));
+       
+    }
+
+    public void ToLocation ()
+    {
+        GameInfo.GetInstance().State = GameState.Location;
+        camera.transform.position = Vector3.zero;
+        Debug.Log("Button");
     }
 }

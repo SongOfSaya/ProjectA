@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameState : MonoBehaviour
+public enum GameState
 {
-	void Start ()
-	{
-	}
-	void Update ()
-	{
-	}
+    Start,
+    Brower,
+    Location,
+    Shoot
 }
